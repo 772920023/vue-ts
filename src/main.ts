@@ -8,6 +8,8 @@ import store from "./store";
 import Element from "element-ui";
 import "./styles/element-variables.scss";
 import "./vue-require-components";
+import "./axios";
+
 Vue.use(Element);
 
 Vue.config.productionTip = false;
